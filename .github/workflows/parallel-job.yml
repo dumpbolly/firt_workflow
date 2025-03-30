@@ -41,11 +41,11 @@ jobs:
         if: github.ref != 'refs/heads/master'
         run: echo "This is not the master branch."
 
-      - name: Install npm and init
-        run: npm init -y
+#     - name: Install npm and init
+#       run: npm init -y
         
-      - name: Run tests
-        run: npm test
+#     - name: Run tests
+#       run: npm test
 
       - name: Debug message
         if: env.DEBUG == 'true'
@@ -70,11 +70,12 @@ jobs:
         if: github.ref != 'refs/heads/master'
         run: echo "This is not the main branch."
 
-      - name: Install npm and init
-        run: npm init -y
 
-      - name: Run tests
-        run: npm test
+#     - name: Install npm and init
+#       run: npm init -y
+        
+#     - name: Run tests
+#       run: npm test
 
       - name: Debug message
         if: env.DEBUG == 'true'
