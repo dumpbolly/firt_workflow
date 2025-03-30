@@ -1,6 +1,10 @@
 # Workflow name
 name: parallel-job-example
 
+env:
+  MONTH_OF_YEAR: December
+  CURRENT_YEAR: 2023
+
 # Triggers for the workflow
 on:
   # Manual trigger using the workflow_dispatch event
