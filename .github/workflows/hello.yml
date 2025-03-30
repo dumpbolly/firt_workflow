@@ -23,7 +23,7 @@ jobs:
           Full_Name: UdaCycle Employee
           Vacation_Days: 20
 
-jobs:
+
   build:
     runs-on: ubuntu-latest
     strategy:
