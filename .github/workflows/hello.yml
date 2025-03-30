@@ -1,3 +1,10 @@
+name: EnvVariable
+
+# Triggers for the workflow
+on:
+  # Manual trigger using the workflow_dispatch event
+  workflow_dispatch:
+  
 env:
   MONTH_OF_YEAR: December
   CURRENT_YEAR: 2023
